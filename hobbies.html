@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Garamond, serif;
+        }
+
+        /* Header */
+        header {
+            background: #48c6ef;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            flex-shrink: 0;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            flex-shrink: 0;
+        }
+
+        nav h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content container */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            flex-grow: 1;
+            background-image: url("background.png");
+        }
+
+        /* Hobbies styling */
+        .hobby {
+            margin: 15px 0;
+            padding: 10px;
+            border: 1px solid #48c6ef;
+            border-radius: 5px;
+            background-color: rgba(186, 239, 250, 0.415);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <h1>MyWebsite</h1>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="campus.html">Campus Life</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>My Hobbies</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section>
+            <div class="hobby">Reading Books</div>
+            <div class="hobby">Traveling</div>
+            <div class="hobby">Photography</div>
+            <div class="hobby">Cooking</div>
+            <div class="hobby">Playing Video Games</div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Siti Nur Syuhadah. All rights reserved.</p>
+    </footer>
+</body>
+</html>
