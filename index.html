@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website - Home</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Garamond, serif;
+        }
+
+        /* Header */
+        header {
+            background: #48c6ef;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            flex-shrink: 0;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            flex-shrink: 0;
+        }
+
+        nav h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content container */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            flex-grow: 1;
+            background-image: url("background.png");
+        }
+
+        /* Biodata Table styling */
+        table {
+            width: 100%;
+            max-width: 800px;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            background-color: rgba(186, 239, 250, 0.415);
+            text-align: left;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <h1>MyWebsite</h1>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="campus.html">Campus Life</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section>
+            <h2>Biodata</h2>
+            <table>
+                <tr>
+                    <td><b>Name</b></td>
+                    <td>Siti Nur Syuhadah</td>
+                    <td><img src="gambar.jpg" alt="Girl in a FSKTM jacket" style="width:120px;height:130px;"></td>
+                </tr>
+                <tr>
+                    <td><b>Date of Birth</b></td>
+                    <td colspan="2">22 October 2024</td>
+                </tr>
+                <tr>
+                    <td><b>Religion</b></td>
+                    <td colspan="2">Islam</td>
+                </tr>
+                <tr>
+                    <td><b>Race</b></td>
+                    <td colspan="2">Melayu</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><b>Address</b></td>
+                    <td>Street</td>
+                    <td>Jalan 15 Taman Universiti</td>
+                </tr>
+                <tr>
+                    <td>Town</td>
+                    <td>Parit Raja</td>
+                </tr>
+                <tr>
+                    <td>District</td>
+                    <td>Batu Pahat</td>
+                </tr>
+                <tr>
+                    <td>State</td>
+                    <td>Johor</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><b>Contact</b></td>
+                    <td>Mobile Phone</td>
+                    <td>011-26084467</td>
+                </tr>
+                <tr>
+                    <td>Social Media</td>
+                    <td>ig- @sydrfnn__</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>asyuarifin@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><b>Website</b></td>
+                    <td colspan="2"><a href="https://syuarifin.github.io/lab2/biodata.html" target="_blank">https://syuarifin.github.io/lab2/biodata.html</a></td>
+                </tr>
+                <tr>
+                    <td><b>Course and Institution</b></td>
+                    <td colspan="2">Universiti Tun Hussein Onn Malaysia</td>
+                </tr>
+                <tr>
+                    <td><b>Programming Skills</b></td>
+                    <td colspan="2">HTML</td>
+                </tr>
+                <tr>
+                    <td><b>Personal Interest</b></td>
+                    <td colspan="2">Cute and clean cat</td>
+                </tr>
+                <tr>
+                    <td><b>Future Plan in 2025</b></td>
+                    <td colspan="2">Happy with family and friends</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Siti Nur Syuhadah. All rights reserved.</p>
+    </footer>
+</body>
+</html>
